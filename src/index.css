@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.my-input {
+    @apply py-2 px-4 focus:border-none   rounded border border-gray-300
+ }
+
+ .my-button {
+    @apply bg-blue-400 hover:bg-blue-500 py-1 px-2 rounded-md  text-white cursor-pointer
+ }
+
